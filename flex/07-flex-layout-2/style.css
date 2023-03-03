@@ -63,20 +63,22 @@ a:link {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  justify-content: space-evenly;
-  flex-grow: grow;
+  flex-grow: shrink;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
   padding: 32px;
-  width: 50%;
+  width: 30%;
   height: 150px;
   margin: 10px;
-  display: flex;
-  flex-direction: row;
   border: 1px solid #eee;
-  border-radius: 4px;
-
   line-height: 15px;
 }
 
